@@ -1,0 +1,55 @@
+{
+  "name": "hapi-aws-jwt-plugin",
+  "version": "0.0.1",
+  "description": "HapiJs plugin which provides a JWT validation for AWS User Pools",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milichev/hapi-aws-jwt-plugin.git"
+  },
+  "keywords": [
+    "aws",
+    "cognito",
+    "jwt",
+	"jwk",
+	"pem",
+    "rest",
+    "api",
+    "openapi",
+	"hapi",
+	"axios",
+	"jsonwebtoken"
+  ],
+  "author": {
+    "name": "Vadym Milichev",
+    "email": "vadim.milichev@gmail.com"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "@hapi/hapi": "^20.0.3"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.1",
+    "@hapi/hoek": "^9.1.1",
+    "axios": "^0.21.1",
+    "es6-promisify": "^6.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/es6-promisify": "^6.0.0",
+    "@types/hapi__hapi": "^20.0.5",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/jwk-to-pem": "^2.0.0",
+    "@types/node": "^14.14.22",
+    "@types/rimraf": "^3.0.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.5"
+  }
+}
