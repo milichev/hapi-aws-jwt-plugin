@@ -1,6 +1,6 @@
 {
   "name": "hapi-aws-jwt-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HapiJs plugin which provides a JWT validation for AWS User Pools",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,14 +15,14 @@
     "aws",
     "cognito",
     "jwt",
-	"jwk",
-	"pem",
+    "jwk",
+    "pem",
     "rest",
     "api",
     "openapi",
-	"hapi",
-	"axios",
-	"jsonwebtoken"
+    "hapi",
+    "axios",
+    "jsonwebtoken"
   ],
   "author": {
     "name": "Vadym Milichev",
